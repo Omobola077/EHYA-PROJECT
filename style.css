@@ -176,4 +176,171 @@ color: #04AADD;
 .arrow{
     position: relative;
     z-index: -2;
+
 }
+
+.schedule{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+    margin-top: 10rem;
+    margin-bottom: 6rem;
+    gap: 4rem;
+}
+.scheduleText{
+    width: 45%;
+}
+.scheduleText h3{
+    font-family: DM Sans;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0.30000001192092896px;
+    color: #034D82;
+    width: 100%;
+}
+.scheduleText p {
+        font-family: DM Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 32px;
+        letter-spacing: 0.30000001192092896px;
+        color: #90A3B4;
+        width: 100%;
+}
+
+.scheduleText a{
+    width: 243px;
+    height: 21px;
+    top: 2410px;
+    left: 140px;
+    color: #04AADD;
+    
+}
+.scheduleImage img{
+    width: 100%;
+}
+.scheduleImage{
+    width: 45%;
+}
+
+.hashtag{
+    background:#EFFBFF;
+    padding: 4rem 0rem;
+    margin-top: 5rem;
+}
+.topHashtag{
+    text-align: center;
+}
+.topHashtag h2{
+font-family: DM Sans;
+font-size: 36px;
+font-weight: 700;
+line-height: 52px;
+letter-spacing: 0.30000001192092896px;
+color: #034D82;
+}
+.topHashtag p{
+    font-family: DM Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 32px;
+    color:#8EA9C1;
+    padding: 1rem 0rem;
+    width: 45%;
+    margin: auto;
+    }
+    .cardWrap{
+        display: flex;
+        gap: 2rem;
+        align-items: center;
+        width: 80%;
+        margin: auto;
+        height: 60vh;
+    }
+    .card{
+        background: #fff;
+        padding: 1rem 0.5rem 3rem 2rem;
+        border-radius: 8px;
+        width: 100%;
+        height: 300px;
+        
+    }
+.card:hover{
+    background: blue;
+    color: #fff;
+    transform: scale(1.1);
+    transition: 0.5s;
+    border-radius: 8px;
+}
+
+    .card h5{
+        font-family: DM Sans;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 34px;
+        /* color: #034D82; */
+        padding: 1rem 0rem;
+    }
+
+    .card p{
+        font-family: DM Sans;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 20px;
+        padding-right: 1rem;
+        /* color: #90A3B4; */
+    }
+    .growth{
+        width: 85%;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+    }
+    .growthLeft h3{
+        font-family: DM Sans;
+        font-size: 36px;
+        font-weight: 700;
+        line-height: 52px;
+        color: #034D82;
+        
+    }
+    .growthLeft p{
+        font-family: DM Sans;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 32px;
+        color: #90A3B4;
+    }
+    .growthText p{
+        font-family: DM Sans;
+        font-size: 16px;
+        font-style: italic;
+        font-weight: 400;
+        line-height: 32px;
+        color:#90A3B4;
+        margin-left: 3rem;
+        margin-bottom: 1.5rem;
+    }
+    .hart{
+        display: flex;
+        gap: 1rem;
+        align-items: center;
+        margin-left: 3rem;
+    }
+    .hart h5{
+        font-family: DM Sans;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 34px;
+        color: #034D82;
+    }
+    .hartName p{
+        font-family: DM Sans;
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 28px;
+        color: #90A3B4;
+    }
