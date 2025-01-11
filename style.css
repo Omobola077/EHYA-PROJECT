@@ -32,6 +32,7 @@ nav{
     display: flex;
     gap: 2rem;
 }
+
 .navBar li a{
 font-family: DM Sans;
 font-size: 14px;
@@ -221,6 +222,9 @@ color: #04AADD;
         width: 100%;
 }
 
+.features img{
+    margin-bottom: 2rem;
+}
 .scheduleText a{
     width: 243px;
     height: 21px;
@@ -233,7 +237,7 @@ color: #04AADD;
     width: 100%;
 }
 .scheduleImage{
-    width: 45%;
+    width: 60%;
 }
 
 .hashtag{
@@ -453,6 +457,8 @@ footer{
 .footLeft{
     width: 30%;
 }
+
+
 li{
  list-style-type: none;
  font-family: DM Sans;
@@ -502,8 +508,15 @@ margin-top: 1rem;
 }
 
 @media (max-width: 1024px){
-    nav {
-        width: 100%;     
+
+nav{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.navBar{
+    display: flex;
+    gap: 1rem;
 }
 
 .logo{
@@ -547,6 +560,24 @@ margin-top: 1rem;
 .postText h3{
     width: 100%;
 }
+.schedule{
+    margin-top: 2rem;
+}
+    .scheduleText{
+        font-size: 12px;
+       width: 85%;
+    }
+   
+   .scheduleText p {
+            font-size: 15px;
+           width: 100%;
+           margin-bottom: 1rem;
+   }
+   
+   .scheduleImage img{
+    width: 100%;
+}
+   
 .cardWrap{
     gap: 1rem;
     height: 70vh;
@@ -593,13 +624,16 @@ li{
 
 
 @media screen and (max-width: 768px){
+    
+    
     nav {
-        width: 100%;   
+        width: 100%;   ;
         gap: 1rem;      
 }
 
 .navBar{
    margin-bottom: -1rem;
+   font-size: 10px;
 }
  
 .logo{
@@ -636,6 +670,21 @@ li{
     padding: 1rem 0rem;
 }
 
+.schedule{
+    width: 85%;
+    margin-top: 2rem;
+   }
+    .scheduleText{
+        font-size: 12px;
+       width: 85%;
+   }
+   
+   .scheduleText p {
+            font-size: 12px;
+           width: 100%;
+   } 
+
+}
 .topHashtag h2 {
     font-size: 28px;
     line-height: 52px;
@@ -687,7 +736,7 @@ font-size: 14px;
 font-size: 12px;
 
 }
-}
+
 
 @media (max-width: 425px){
     .footLogo img{
@@ -697,7 +746,7 @@ font-size: 12px;
         display: none;
     } 
     .hero{
-        /* display: block; */
+        
       flex-direction: column;
       width: 85%;
       margin: auto;
@@ -723,12 +772,13 @@ font-size: 12px;
        }
       
     .post{
-        flex-direction: column;
+        flex-direction: column-reverse;
         width: 85%;
         margin: auto;
        }
     
       .postImage {
+        margin-top: 2rem;
         width: 100%;
          }
  
@@ -753,6 +803,22 @@ font-size: 14px;
 font-weight: 400;
 line-height: 32px;
 }
+
+.schedule{
+ flex-direction: column;  
+ width: 100%;
+ margin-top: 2rem;
+}
+ .scheduleText{
+    width: 85%;
+}
+.scheduleText h3{
+    width: 100%;
+}
+.scheduleText p {
+         font-size: 16px;
+        width: 100%;
+} 
 
 .topHashtag p{
    
@@ -821,7 +887,7 @@ line-height: 32px;
         font-size: 16px;
         width: 100%;
     }
-
+       
     .hart{
         display: flex;
         gap: 1rem;
@@ -845,14 +911,11 @@ line-height: 32px;
         margin-bottom: 5rem;
      }
 
-     /* .brandLeft h3{
-        font-family: DM Sans;
-        font-size: 32px;
-        font-weight: 700;
-        line-height: 44px;
-      color: #fff;
-         width: 55%;
- } */
+     .brandLeft h3{
+        
+        font-size: 22px;
+        width: 100%;
+ }
 
   .customer{
     margin: 2rem 0;
@@ -896,4 +959,47 @@ li{
    font-size: 16px;
    }
    
+}
+@media (max-width: 375px){
+
+    .post{
+        flex-direction: column-reverse;
+        margin: auto;
+       }
+
+       .postImage{
+        margin-top: 2rem;
+       }
+
+    .postText h3{
+
+        font-size: 32px;
+        font-weight: 700;
+        line-height: 45px;
+        width: 100%;
+        }
+        
+        .postText p{
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 32px;
+        }
+        
+        .schedule{
+         flex-direction: column;  
+         width: 100%;
+         margin-top: 2rem;
+        }
+
+        .topHashtag p{
+    font-size: 14px;
+    width: 85%;
+            }
+
+            .growthLeft h3{
+                font-size: 32px;
+                 width: 100%;
+                }
+        
+       
 }
